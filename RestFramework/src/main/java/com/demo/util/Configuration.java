@@ -15,6 +15,7 @@ public class Configuration {
 		try {
 			File jsonFile = new File(Constant.configFilePath+File.separator+ConfigPojo.configFile);
 			ConfigPojo.baseURI = JsonPath.read(jsonFile,"baseURL");
+			ConfigPojo.webURL = JsonPath.read(jsonFile, "webURL");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

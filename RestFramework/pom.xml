@@ -26,6 +26,13 @@
         <artifactId>slf4j-log4j12</artifactId>
         <version>1.5.2</version>
     </dependency>
+     
+    <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+</dependency>
+    
 	<dependency>
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>rest-assured</artifactId>

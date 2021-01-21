@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1910" started-at="2021-01-21T16:07:30Z" finished-at="2021-01-21T16:07:32Z">
+  <suite name="Default suite" duration-ms="11743" started-at="2021-01-21T21:43:01Z" finished-at="2021-01-21T21:43:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1910" started-at="2021-01-21T16:07:30Z" finished-at="2021-01-21T16:07:32Z">
+    <test name="Default test" duration-ms="11743" started-at="2021-01-21T21:43:01Z" finished-at="2021-01-21T21:43:13Z">
       <class name="com.demo.test.TestClass">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.TestClass@6c6cb480]" name="beforeTest" is-config="true" duration-ms="79" started-at="2021-01-21T16:07:30Z" finished-at="2021-01-21T16:07:30Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.TestClass@38425407]" name="beforeTest" is-config="true" duration-ms="1918" started-at="2021-01-21T21:43:01Z" finished-at="2021-01-21T21:43:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testFunc1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.test.TestClass@6c6cb480]" name="testFunc1" duration-ms="1480" started-at="2021-01-21T16:07:30Z" data-provider="feeder" finished-at="2021-01-21T16:07:32Z">
+        <test-method status="PASS" signature="testFunc1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.test.TestClass@38425407]" name="testFunc1" duration-ms="8825" started-at="2021-01-21T21:43:04Z" data-provider="feeder" finished-at="2021-01-21T21:43:12Z">
           <params>
             <param index="0">
               <value>
@@ -38,10 +38,24 @@
                 <![CDATA[200]]>
               </value>
             </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFunc1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.test.TestClass@38425407]" name="afterTest" is-config="true" duration-ms="650" started-at="2021-01-21T21:43:12Z" finished-at="2021-01-21T21:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.demo.test.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
