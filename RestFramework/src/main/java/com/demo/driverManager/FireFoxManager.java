@@ -13,7 +13,7 @@ public class FireFoxManager extends DriverManager{
 	public WebDriver createDriver() {
 		
 		String geckoDriverPath = System.getProperty("user.dir")+File.separator+"driver"+File.separator+"geckodriver.exe";			
-		System.setProperty("webdriver.chrome.driver", geckoDriverPath);
+		System.setProperty("webdriver.gecko.driver", geckoDriverPath);
 		WebDriver driver = new FirefoxDriver();
 		
 		return driver;

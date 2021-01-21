@@ -1,2 +1,2 @@
-testCaseID,testCaseName,apiMethod,paramType,expectedStatusCode
-1,demo test,get,query,200
+testCaseID,testCaseName,apiMethod,paramType,expectedStatusCode,userEmail,password
+1,demo test,get,query,200,abc@xyz.com,abc
