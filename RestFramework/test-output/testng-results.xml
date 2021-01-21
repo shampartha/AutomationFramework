@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="394" started-at="2021-01-21T10:10:47Z" finished-at="2021-01-21T10:10:47Z">
+  <suite name="Default suite" duration-ms="1910" started-at="2021-01-21T16:07:30Z" finished-at="2021-01-21T16:07:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="394" started-at="2021-01-21T10:10:47Z" finished-at="2021-01-21T10:10:47Z">
+    <test name="Default test" duration-ms="1910" started-at="2021-01-21T16:07:30Z" finished-at="2021-01-21T16:07:32Z">
       <class name="com.demo.test.TestClass">
-        <test-method status="PASS" signature="testFunc1(java.lang.String, java.lang.String)[pri:0, instance:com.demo.test.TestClass@2d3379b4]" name="testFunc1" duration-ms="7" started-at="2021-01-21T10:10:47Z" data-provider="feeder" finished-at="2021-01-21T10:10:47Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.TestClass@6c6cb480]" name="beforeTest" is-config="true" duration-ms="79" started-at="2021-01-21T16:07:30Z" finished-at="2021-01-21T16:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testFunc1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.test.TestClass@6c6cb480]" name="testFunc1" duration-ms="1480" started-at="2021-01-21T16:07:30Z" data-provider="feeder" finished-at="2021-01-21T16:07:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[as]]>
+                <![CDATA[1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[abc]]>
+                <![CDATA[demo test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[get]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[query]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFunc1 -->
-        <test-method status="PASS" signature="testFunc2(java.lang.String, java.lang.String)[pri:0, instance:com.demo.test.TestClass@2d3379b4]" name="testFunc2" duration-ms="1" started-at="2021-01-21T10:10:47Z" data-provider="feeder" finished-at="2021-01-21T10:10:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[as]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFunc2 -->
       </class> <!-- com.demo.test.TestClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,2 +1,2 @@
-testCaseID,testCaseName
-as,abc
+testCaseID,testCaseName,apiMethod,paramType,expectedStatusCode
+1,demo test,get,query,200

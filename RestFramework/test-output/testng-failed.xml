@@ -6,6 +6,7 @@
       <class name="com.demo.test.TestClass">
         <methods>
           <include name="testFunc1"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- com.demo.test.TestClass -->
     </classes>
